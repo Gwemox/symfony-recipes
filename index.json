@@ -1,0 +1,43 @@
+{
+    "aliases": {
+        "all-my-sms-notifier": "symfony/all-my-sms-notifier",
+        "allmysmsnotifier": "symfony/all-my-sms-notifier",
+        "gateway-api-notifier": "symfony/gateway-api-notifier",
+        "gatewayapinotifier": "symfony/gateway-api-notifier",
+        "mailjet-notifier": "symfony/mailjet-notifier",
+        "mailjetnotifier": "symfony/mailjet-notifier",
+        "orange-sms-notifier": "symfony/orange-sms-notifier",
+        "orangesmsnotifier": "symfony/orange-sms-notifier",
+        "vonage-notifier": "symfony/vonage-notifier",
+        "vonagenotifier": "symfony/vonage-notifier"
+    },
+    "recipes": {
+        "symfony/all-my-sms-notifier": [
+            "5.3"
+        ],
+        "symfony/gateway-api-notifier": [
+            "5.3"
+        ],
+        "symfony/mailjet-notifier": [
+            "5.4"
+        ],
+        "symfony/orange-sms-notifier": [
+            "6.1"
+        ],
+        "symfony/vonage-notifier": [
+            "5.4"
+        ]
+    },
+    "recipe-conflicts": [],
+    "versions": [],
+    "branch": "main",
+    "is_contrib": false,
+    "_links": {
+        "repository": "github.com/symfony/recipes",
+        "origin_template": "{package}:{version}@github.com/symfony/recipes:main",
+        "recipe_template": "https://raw.githubusercontent.com/symfony/recipes/flex/pull-1101/{package_dotted}.{version}.json",
+        "recipe_template_relative": "{package_dotted}.{version}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/symfony/recipes/flex/pull-1101/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
+    }
+}
